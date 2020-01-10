@@ -44,22 +44,55 @@ import cucumber.api.java.en.When
 
 
 
-class stepsUno {
+class stepsUno{
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
 	@Given("I want to write a step with (.*)")
 	def I_want_to_write_a_step_with_name(String name) {
-		println name
+
+		WebUI.openBrowser('')
+		WebUI.navigateToUrl('http://demoaut.katalon.com')
 	}
 
 	@When("I check for the (\\d+) in step")
 	def I_check_for_the_value_in_step(int value) {
-		println value
+		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'), FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("I verify the (.*) in step")
 	def I_verify_the_status_in_step(String status) {
 		println status
 	}
+
+	@Given("Que estoy en demo katalon")
+	def I_verify_the_status_in_step(){
+		WebUI.openBrowser('')
+		WebUI.navigateToUrl('http://demoaut.katalon.com')
+	}
+	
+	
+	@When("Presiono make apointment")
+		def Presiono_make_apointment(){
+			WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'), FailureHandling.STOP_ON_FAILURE)
+		}
+	
+	
+	@And("Ingreso datos de login (.*) (.*)")
+	def Ingreso_datos_de_login(String user, String Pass){
+		WebUI.sendKeys(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), user, FailureHandling.STOP_ON_FAILURE)
+		WebUI.sendKeys(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), Pass, FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@And("Presiono el botón login")
+	def Presiono_el_boton_login(){
+		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'), FailureHandling.STOP_ON_FAILURE)
+	} 	
+	
+	@Then("Muestra mensaje error (.*)")
+	def Muestra_mensaje_error(String msj){
+		WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid'), msj, FailureHandling.STOP_ON_FAILURE)
+		WebUI.closeBrowser();
+	}
+	
 }

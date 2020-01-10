@@ -6,6 +6,7 @@
    <UUID>460ffc45-90d0-4a65-9a87-a1be2ef5d7c4</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\TestingIT\git\katalon_Test\katalon_Test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
