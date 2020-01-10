@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="31.128412">
+<testcase classname="Title of your feature" name="Title of your scenario outline" time="17.409782">
+<system-out><![CDATA[Given Que estoy en demo katalon.............................................passed
+When Presiono make apointment...............................................passed
+And Ingreso datos de login name1 5..........................................passed
+And Presiono el botón login.................................................passed
+Then Muestra mensaje error Login failed! Please ensure the username and password are valid..passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Title of your scenario outline 2" time="13.71863">
+<system-out><![CDATA[Given Que estoy en demo katalon.............................................passed
+When Presiono make apointment...............................................passed
+And Ingreso datos de login name2 7..........................................passed
+And Presiono el botón login.................................................passed
+Then Muestra mensaje error Login failed! Please ensure the username and password are valid..passed
+]]></system-out>
+</testcase>
+</testsuite>

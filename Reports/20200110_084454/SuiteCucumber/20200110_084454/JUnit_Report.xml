@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuiteCucumber" time="32.964" tests="1" failures="0" errors="0">
+   <testsuite name="SuiteCucumber" tests="1" failures="0" errors="0" time="32.964" timestamp="2020-01-10 08:44:58" hostname="TestingIT - 192.168.26.169" id="Test Suites/SuiteCucumber">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TestingIT\\git\\katalon_Test\\Reports\\20200110_084454\\SuiteCucumber\\20200110_084454"/>
+         <property name="logFiles" value="C:\\Users\\TestingIT\\git\\katalon_Test\\Reports\\20200110_084454\\SuiteCucumber\\20200110_084454\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TestingIT - 192.168.26.169"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.117"/>
+         <property name="hostAddress" value="192.168.26.169"/>
+         <property name="sessionId" value="a1fc5ec597533eaa95e32a436d539312"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="32.539" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2020-01-10 08:44:58 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2020-01-10 08:44:59 - [TEST_STEP][PASSED] - runFeatureFolder("Include/features"): All feature files in 'Include/features' were passed
+
+2020-01-10 08:44:59 - [MESSAGE][INFO] - Starting run keyword runFeatureFolder: 'Include/features' and extract report to folder: 'C:\Users\TestingIT\git\katalon_Test\Reports\20200110_084454\SuiteCucumber\20200110_084454/cucumber_report/1578667499133'...
+
+2020-01-10 08:45:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-10 08:45:00 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-10 08:45:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-10 08:45:11 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com' successfully
+
+2020-01-10 08:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2020-01-10 08:45:13 - [MESSAGE][PASSED] - Keys 'name1' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2020-01-10 08:45:13 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2020-01-10 08:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-01-10 08:45:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid' are matched.
+
+2020-01-10 08:45:17 - [MESSAGE][PASSED] - Browser is closed
+
+2020-01-10 08:45:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-10 08:45:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-10 08:45:26 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com' successfully
+
+2020-01-10 08:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2020-01-10 08:45:27 - [MESSAGE][PASSED] - Keys 'name2' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2020-01-10 08:45:27 - [MESSAGE][PASSED] - Keys '7' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2020-01-10 08:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-01-10 08:45:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid' are matched.
+
+2020-01-10 08:45:30 - [MESSAGE][PASSED] - Browser is closed
+
+2020-01-10 08:45:31 - [MESSAGE][PASSED] - All feature files in 'Include/features' were passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-10 08:44:58 - [TEST_SUITE][PASSED] - SuiteCucumber: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

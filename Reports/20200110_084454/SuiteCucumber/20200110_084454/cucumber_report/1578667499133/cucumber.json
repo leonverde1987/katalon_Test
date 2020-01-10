@@ -1,0 +1,210 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 33,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11729015800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Que estoy en demo katalon",
+            "match": {
+              "location": "stepsUno.I_verify_the_status_in_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1165044700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Presiono make apointment",
+            "match": {
+              "location": "stepsUno.Presiono_make_apointment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1075651300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Ingreso datos de login name1 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name1",
+                  "offset": 23
+                },
+                {
+                  "val": "5",
+                  "offset": 29
+                }
+              ],
+              "location": "stepsUno.Ingreso_datos_de_login(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1562409700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Presiono el botón login",
+            "match": {
+              "location": "stepsUno.Presiono_el_boton_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1847022200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Muestra mensaje error Login failed! Please ensure the username and password are valid.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login failed! Please ensure the username and password are valid.",
+                  "offset": 22
+                }
+              ],
+              "location": "stepsUno.Muestra_mensaje_error(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8943560800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Que estoy en demo katalon",
+            "match": {
+              "location": "stepsUno.I_verify_the_status_in_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 888128700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Presiono make apointment",
+            "match": {
+              "location": "stepsUno.Presiono_make_apointment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 758072200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Ingreso datos de login name2 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name2",
+                  "offset": 23
+                },
+                {
+                  "val": "7",
+                  "offset": 29
+                }
+              ],
+              "location": "stepsUno.Ingreso_datos_de_login(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1303302700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Presiono el botón login",
+            "match": {
+              "location": "stepsUno.Presiono_el_boton_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1818242900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Muestra mensaje error Login failed! Please ensure the username and password are valid.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login failed! Please ensure the username and password are valid.",
+                  "offset": 22
+                }
+              ],
+              "location": "stepsUno.Muestra_mensaje_error(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/TestingIT/git/katalon_Test/Include/features/testDos.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
